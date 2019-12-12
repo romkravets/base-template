@@ -6,15 +6,18 @@ import logo from '../images/domain.svg'
 const Header = ({ siteTitle }) => (
   <header
     style={{
+      width: `100%`,
+      height: `83px`,
       background: `#F6F6F6`,
-      marginBottom: `1.45rem`,
+      padding: `1rem`,
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
-        maxWidth: 1400,
-        padding: `1rem 1rem`,
+        // margin: `0 auto`,
+        // maxWidth: 2200,
+        // width: `100%`,
+        // padding: `1rem 2rem`,
       }}
     >
       <div>
