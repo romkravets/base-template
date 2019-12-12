@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Gothic";
+  src: url("../fonts/gothic.ttf")   format("ttf");
+}
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Gothic', sans-serif;
+  //font-family: 'Nanum Gothic', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+header,
+nav,
+section,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  max-width: 2200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);
+}
